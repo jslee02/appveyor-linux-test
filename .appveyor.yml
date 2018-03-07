@@ -3,6 +3,9 @@ image: ubuntu
 install:
   - ls -al
   - sh: sudo apt-get update
+  - cmake --version
+  - gcc --version
+  - clang --version
 
 #script:
 #  - cmd: cmake --version
