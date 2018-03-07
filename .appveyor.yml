@@ -7,6 +7,7 @@ install:
   - cmake --version
   - gcc --version
   - clang --version
+  - lsb_release -a
 
 #script:
 #  - cmd: cmake --version
