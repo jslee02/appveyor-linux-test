@@ -1,13 +1,13 @@
 image: ubuntu
 
 install:
-  - ls -al
+  - lsb_release -a
   - sudo apt-add-repository ppa:dartsim/ppa
   - sudo apt-get update
+  - sudo apt-get --yes install cmake
   - cmake --version
-  - gcc --version
-  - clang --version
-  - lsb_release -a
+  #- gcc --version
+  #- clang --version
 
 #script:
 #  - cmd: cmake --version
