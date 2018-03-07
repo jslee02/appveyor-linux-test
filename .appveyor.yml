@@ -1,3 +1,7 @@
 image: ubuntu
 
+script:
+  - cmd: cmake --version
+  - cmd: gcc --version
+
 build: off
