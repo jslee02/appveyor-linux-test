@@ -12,6 +12,7 @@ install:
   - sudo apt-get --yes install ros-lunar-actionlib ros-lunar-geometry-msgs ros-lunar-interactive-markers ros-lunar-roscpp ros-lunar-std-msgs ros-lunar-tf ros-lunar-trajectory-msgs ros-lunar-visualization-msgs
   - cmake --version
   - gcc --version
+  - source /opt/ros/lunar/setup.bash
 
 #script:
 #  - cmd: cmake --version
