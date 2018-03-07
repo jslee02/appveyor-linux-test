@@ -1,4 +1,6 @@
-image: ubuntu
+image: 
+  - ubuntu
+  - Ubuntu
 
 install:
   - sh: uname -a
