@@ -2,7 +2,8 @@ image: ubuntu
 
 install:
   - ls -al
-  - sh: sudo apt-get update
+  - sudo apt-add-repository ppa:dartsim/ppa
+  - sudo apt-get update
   - cmake --version
   - gcc --version
   - clang --version
