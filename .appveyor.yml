@@ -1,7 +1,11 @@
 image: ubuntu
 
-script:
-  - cmd: cmake --version
-  - cmd: gcc --version
+install:
+  - ls -al
+  - sh: sudo apt-get update
+
+#script:
+#  - cmd: cmake --version
+#  - cmd: gcc --version
 
 build: off
